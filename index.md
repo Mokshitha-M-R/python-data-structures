@@ -71,6 +71,7 @@ fruits.sort()
 ❌ `IndexError` — Python stops you from accessing something that doesn’t exist.
 
 
+
 ## 🧾 2. TUPLE — The Sealed Package
 
 ### 🧠 Concept
@@ -109,6 +110,7 @@ coordinates[0] = 15
 
 * Click a button to “lock” values
 * Attempt edits and see errors visually
+
 
 
 ## 🧠 3. SET — The Party Guest List
@@ -154,6 +156,7 @@ A - B   # Difference
 
 * Click elements
 * See union and intersection update live
+
 
 
 ## 📖 4. DICTIONARY — The Smart Phonebook
@@ -203,6 +206,7 @@ student.values()
 * See a live dictionary preview
 
 
+
 ## 🧠 Comparison Table
 
 | Structure  | Ordered | Mutable | Duplicates | Best Use Case        |
@@ -213,6 +217,7 @@ student.values()
 | Dictionary | ✔       | ✔       | Keys ❌     | Fast lookup          |
 
 
+
 ## 🧪 Concept Challenge
 
 Match the data with the right structure:
@@ -221,6 +226,7 @@ Match the data with the right structure:
 2. Coordinates of a point → **Tuple**
 3. Unique email IDs → **Set**
 4. Daily expenses → **List**
+
 
 
 ## 🚀 Pro Tip

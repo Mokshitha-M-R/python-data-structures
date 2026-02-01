@@ -1,9 +1,9 @@
-# 🧠 Python Data Structures — Learn by *Thinking*, Not Memorizing
+# Python Data Structures — Learn by *Thinking*, Not Memorizing
 
 > *“Data structures are how your program remembers things.”*  
 Python just makes that memory **friendly, flexible, and powerful**.
 
-## 🌱 What Is a Data Structure? (Warm-up)
+## What Is a Data Structure? (Warm-up)
 
 Imagine your brain trying to remember:
 - A **shopping list**
@@ -13,14 +13,14 @@ Imagine your brain trying to remember:
 
 You wouldn’t store all of these the same way, right?
 
-👉 A **data structure** is simply **a way to store, organize, and access data efficiently**.
+A **data structure** is simply **a way to store, organize, and access data efficiently**.
 
 Python gives us built-in structures so we don’t have to reinvent the wheel 🚲.
 
 
-## 🧺 1. LIST — The Everyday Backpack
+## 1. LIST — The Everyday Backpack
 
-### 🧠 Concept
+### Concept
 A **list** is like a backpack where you can:
 - Put anything inside  
 - Change items  
@@ -31,7 +31,7 @@ A **list** is like a backpack where you can:
 fruits = ["apple", "banana", "mango"]
 ````
 
-### 🔍 Key Features
+### Key Features
 
 * ✔ Ordered
 * ✔ Changeable (mutable)
@@ -42,14 +42,14 @@ fruits = ["apple", "banana", "mango"]
 fruits[0]   # apple
 ```
 
-### 🎮 Interactive Idea
+### Interactive Idea
 
 **What’s in the backpack?**
 
 * Drag items into a list
 * Watch index numbers update live
 
-### ⚡ Common Actions
+### Common Actions
 
 ```python
 fruits.append("orange")
@@ -57,14 +57,14 @@ fruits.remove("banana")
 fruits.sort()
 ```
 
-### 💡 When to Use Lists
+### When to Use Lists
 
 * When order matters
 * When data changes frequently
 * When you need flexibility
 
 
-## 🧠 Mini Quiz
+## Mini Quiz
 
 **What happens if you run `fruits[10]`?**
 
@@ -72,25 +72,25 @@ fruits.sort()
 
 
 
-## 🧾 2. TUPLE — The Sealed Package
+## 2. TUPLE — The Sealed Package
 
-### 🧠 Concept
+### Concept
 
-A **tuple** is like a sealed package 📦
+A **tuple** is like a sealed package 
 Once created, **it cannot be changed**.
 
 ```python
 coordinates = (10, 20)
 ```
 
-### 🔍 Key Features
+### Key Features
 
 * ✔ Ordered
 * ❌ Immutable (cannot change)
 * ✔ Faster than lists
 * ✔ Safer for fixed data
 
-### 🤔 Why Use Tuples?
+### Why Use Tuples?
 
 * To protect important data
 * To improve performance
@@ -113,9 +113,9 @@ coordinates[0] = 15
 
 
 
-## 🧠 3. SET — The Party Guest List
+## 3. SET — The Party Guest List
 
-### 🧠 Concept
+### Concept
 
 A **set** is like a party guest list:
 
@@ -133,13 +133,13 @@ Output:
 {'Asha', 'Ravi'}
 ```
 
-### 🔍 Key Features
+### Key Features
 
 * ✔ Unordered
 * ✔ Unique values only
 * ✔ Fast membership testing
 
-### 🧠 Set Operations
+### Set Operations
 
 ```python
 A = {1, 2, 3}
@@ -159,9 +159,9 @@ A - B   # Difference
 
 
 
-## 📖 4. DICTIONARY — The Smart Phonebook
+## 4. DICTIONARY — The Smart Phonebook
 
-### 🧠 Concept
+### Concept
 
 A **dictionary** stores data as **key → value pairs**.
 
@@ -173,7 +173,7 @@ student = {
 }
 ```
 
-### 🔍 Key Features
+### Key Features
 
 * ✔ Fast lookup
 * ✔ Meaningful access using keys
@@ -183,14 +183,14 @@ student = {
 student["name"]
 ```
 
-### 🧠 Real-Life Uses
+### Real-Life Uses
 
 * Login systems
 * Student records
 * Configuration files
 * APIs and JSON data
 
-### ⚡ Common Actions
+### Common Actions
 
 ```python
 student["age"] = 21
@@ -207,7 +207,7 @@ student.values()
 
 
 
-## 🧠 Comparison Table
+## Comparison Table
 
 | Structure  | Ordered | Mutable | Duplicates | Best Use Case        |
 | ---------- | ------- | ------- | ---------- | -------------------- |
@@ -234,6 +234,6 @@ Match the data with the right structure:
 > **Data structures don’t just store data — they shape how you think while coding.**
 
 Wrong structure = messy code
-Right structure = clean, efficient logic ✨
+Right structure = clean, efficient logic 
 
 

@@ -1,2 +1,2 @@
-# python-data-structures
+# Python-Data-Structures
 Python Data Structures – Academic Assignment

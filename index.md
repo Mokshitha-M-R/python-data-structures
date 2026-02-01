@@ -3,7 +3,6 @@
 > *“Data structures are how your program remembers things.”*  
 Python just makes that memory **friendly, flexible, and powerful**.
 
-
 ## 🌱 What Is a Data Structure? (Warm-up)
 
 Imagine your brain trying to remember:
@@ -18,7 +17,6 @@ You wouldn’t store all of these the same way, right?
 
 Python gives us built-in structures so we don’t have to reinvent the wheel 🚲.
 
----
 
 ## 🧺 1. LIST — The Everyday Backpack
 
@@ -65,7 +63,6 @@ fruits.sort()
 * When data changes frequently
 * When you need flexibility
 
----
 
 ## 🧠 Mini Quiz
 
@@ -73,7 +70,6 @@ fruits.sort()
 
 ❌ `IndexError` — Python stops you from accessing something that doesn’t exist.
 
----
 
 ## 🧾 2. TUPLE — The Sealed Package
 
@@ -114,7 +110,6 @@ coordinates[0] = 15
 * Click a button to “lock” values
 * Attempt edits and see errors visually
 
----
 
 ## 🧠 3. SET — The Party Guest List
 
@@ -160,7 +155,6 @@ A - B   # Difference
 * Click elements
 * See union and intersection update live
 
----
 
 ## 📖 4. DICTIONARY — The Smart Phonebook
 

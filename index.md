@@ -3,7 +3,7 @@
 > *“Data structures are how your program remembers things.”*  
 Python just makes that memory **friendly, flexible, and powerful**.
 
-## What Is a Data Structure? (Warm-up)
+## What Is a Data Structure? (Warm-up) 
 
 Imagine your brain trying to remember:
 - A **shopping list**
